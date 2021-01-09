@@ -1,0 +1,83 @@
+{
+  "Name": "Jerk",
+  "BaseUnit": "MeterPerSecondCubed",
+  "BaseDimensions": {
+    "L": 1,
+    "T": -3
+  },
+  "BaseType": "double",
+  "GenerateArithmetic": true,
+  "LogarithmicScalingFactor": 1,
+  "Units": [
+    {
+      "SingularName": "CentimeterPerSecondCubed",
+      "PluralName": "CentimetersPerSecondCubed",
+      "FromUnitToBaseFunc": "x * 0.01",
+      "FromBaseToUnitFunc": "x / 0.01",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [
+            "cm/s3"
+          ]
+        }
+      ]
+    },
+    {
+      "SingularName": "FootPerMillisecondCubed",
+      "PluralName": "FeetPerMillisecondCubed",
+      "FromUnitToBaseFunc": "x * 0.3048 / 1E-09",
+      "FromBaseToUnitFunc": "x / 0.3048 * 1E-09",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [
+            "ft/ms3"
+          ]
+        }
+      ]
+    },
+    {
+      "SingularName": "FootPerSecondCubed",
+      "PluralName": "FeetPerSecondCubed",
+      "FromUnitToBaseFunc": "x * 0.3048",
+      "FromBaseToUnitFunc": "x / 0.3048",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [
+            "ft/s3"
+          ]
+        }
+      ]
+    },
+    {
+      "SingularName": "MeterPerMillisecondCubed",
+      "PluralName": "MetersPerMillisecondCubed",
+      "FromUnitToBaseFunc": "x / 1E-09",
+      "FromBaseToUnitFunc": "x * 1E-09",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [
+            "m/ms3"
+          ]
+        }
+      ]
+    },
+    {
+      "SingularName": "MeterPerSecondCubed",
+      "PluralName": "MetersPerSecondCubed",
+      "FromUnitToBaseFunc": "x",
+      "FromBaseToUnitFunc": "x",
+      "Localization": [
+        {
+          "Culture": "en-US",
+          "Abbreviations": [
+            "m/s3"
+          ]
+        }
+      ]
+    }
+  ]
+}
